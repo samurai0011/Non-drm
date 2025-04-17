@@ -1,9 +1,10 @@
-# Don't Remove Credit Tg - @VJ_Botz
-# Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
-# Ask Doubt on telegram @KingVJ01
+#𝙎𝘼𝙈𝙐𝙍𝘼𝙄 𝘽𝙊𝙏𝙎
+# Add your details here and then deploy by clicking on HEROKU Deploy button
+import os
 
-from os import environ
+API_ID    = os.environ.get("API_ID", "")
+API_HASH  = os.environ.get("API_HASH", "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
 
-API_ID = int(environ.get("API_ID", "22182189"))
-API_HASH = environ.get("API_HASH", "5e7c4088f8e23d0ab61e29ae11960bf5")
-BOT_TOKEN = environ.get("BOT_TOKEN", "")
+#WEBHOOK = True  # Don't change this
+#PORT = int(os.environ.get("PORT", 8080))  # Default to 8000 if not set
